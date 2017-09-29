@@ -1,3 +1,14 @@
+
+// 1. Put this code in its own file
+// 2. UIKit must be included in file where this code is added.
+// 3. Extends UIDevice class, thus is available anywhere in app.
+//
+// Usage example:
+// Swift 2 Usage:
+//  let modelName = UIDevice.currentDevice().modelName
+// 
+// Swift 3 Usage:
+//  let modelName = UIDevice.current.modelName
 import UIKit
 
 public extension UIDevice {
